@@ -2,8 +2,7 @@ language: python
 ddons:
   sonarcloud:
     organization: "TestTravis" # the key of the org you chose at step #3
-    token:
-      secure: "83255e4f27bff90d11ed252b5aff27afb9728cf4" # encrypted value of your token
+    
 script:
   # other script steps might be done before running the actual analysis
   - sonar-scanner
